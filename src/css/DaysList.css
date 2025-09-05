@@ -1,0 +1,40 @@
+.days-list {
+  display: flex;
+}
+
+/* Individual buttons */
+.day-button {
+  width: 150px !important;
+  padding: 8px 0 !important;
+  border: none !important;
+  cursor: pointer !important;
+  border-radius: 0 !important;
+  position: relative !important;
+  text-align: center !important;
+  transition: background-color 0.3s ease !important;
+  outline: none !important;
+}
+
+/* Button States */
+.day-button:hover {
+  background-color: #535559 !important;
+}
+
+.day-button.selected {
+  background-color: #1847b1 !important;
+  color: #ffffff !important;
+}
+
+.day-button:focus {
+  outline: none !important;
+}
+
+/* Edge cases for the first and last buttons */
+.day-button.first-day {
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+}
+.day-button.last-day {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}

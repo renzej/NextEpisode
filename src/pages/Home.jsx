@@ -1,4 +1,5 @@
 import AnimeCard from "../components/AnimeCard";
+import DaysList from "../components/DaysList";
 
 function Home() {
 	// Temp data
@@ -10,6 +11,7 @@ function Home() {
 
 	return (
 		<div className="home">
+			<DaysList />
 			<div className="anime-grid">
 				{animes.map((anime) => (
 					<AnimeCard anime={anime} key={anime.id} />
