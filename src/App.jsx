@@ -1,10 +1,10 @@
 import "./App.css";
-import AnimeCard from "./components/AnimeCard";
+import Home from "./pages/Home";
 
 function App() {
 	return (
 		<>
-			<AnimeCard anime={{ title: "Tim's" }}></AnimeCard>
+			<Home />
 		</>
 	);
 }

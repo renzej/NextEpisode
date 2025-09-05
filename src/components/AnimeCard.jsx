@@ -9,7 +9,7 @@ function AnimeCard({ anime }) {
 				<img src={anime.url} alt={anime.title} />
 				<div className="anime-overlay">
 					<button
-						className="favourite-htn"
+						className="favourite-btn"
 						onClick={onFavouriteClick}
 					>
 						Like
