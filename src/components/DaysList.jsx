@@ -4,13 +4,13 @@ import "../css/DaysList.css";
 function DaysList() {
 	// List of days
 	const days = [
-		"Sunday",
 		"Monday",
 		"Tuesday",
 		"Wednesday",
 		"Thursday",
 		"Friday",
 		"Saturday",
+		"Sunday",
 	];
 	// State for selected day
 	const [selectedDay, setSelectedDay] = useState(days[new Date().getDay()]);
